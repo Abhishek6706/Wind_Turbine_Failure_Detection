@@ -50,11 +50,12 @@ The model was compiled with the `adam` optimizer and `binary_crossentropy` loss 
 
 ---
 
-## 🚀 Getting Started
+## Results & Conclusion
 
-To get a local copy up and running, follow these steps.
+The model's performance was evaluated on a held-out test set, demonstrating strong predictive capabilities.
 
-### Prerequisites
-Make sure you have Python and the following libraries installed:
-```sh
-pip install pandas numpy matplotlib seaborn scikit-learn tensorflow imbalanced-learn
+* **Accuracy:** The model achieved an overall **accuracy of 92%**.
+* **Classification Report:** The report showed a high `precision`, `recall`, and `f1-score` for both classes, indicating that the model is effective at identifying both normal operations and generator failures.
+* **Confusion Matrix:** The confusion matrix confirmed the model's ability to correctly classify a high number of true positives (actual failures) and true negatives (normal operations).
+
+In conclusion, this project successfully demonstrates that a deep learning model can be used to predict wind turbine generator failures with a high degree of confidence. This enables a shift to a more efficient and cost-effective predictive maintenance schedule, ultimately maximizing energy output and operational lifespan.
