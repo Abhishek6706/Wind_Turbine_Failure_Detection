@@ -8,7 +8,6 @@ This project uses sensor data from wind turbines to predict generator failure. B
 - [About The Project](#about-the-project)
 - [Dataset](#dataset)
 - [Methodology](#methodology)
-- [Getting Started](#getting-started)
 - [Results & Conclusion](#results--conclusion)
 
 ---
